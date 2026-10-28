@@ -1,0 +1,98 @@
+{
+  "materials": [
+    {
+      "id": "mat_concrete",
+      "texture_path": "Textures/concrete.png",
+      "specular_intensity": 0.2,
+      "shininess": 8.0
+    },
+    {
+      "id": "mat_metal_crate",
+      "texture_path": "Textures/metal.png",
+      "specular_intensity": 1.0,
+      "shininess": 64.0
+    }
+  ],
+  "lights": {
+    "directional_light": {
+      "direction": [-0.2, -1.0, -0.3],
+      "color": [0.1, 0.1, 0.15],
+      "ambient_intensity": 0.05,
+      "diffuse_intensity": 0.1
+    },
+    "point_lights": [
+      {
+        "id": "patrol_guard_1",
+        "start_position": [0.0, 5.0, 0.0],
+        "color": [1.0, 0.9, 0.6],
+        "ambient_intensity": 0.1,
+        "diffuse_intensity": 1.0,
+        "attenuation": [0.3, 0.2, 0.1],
+        "patrol_speed": 2.5,
+        "patrol_path": [
+          [5.0, 2.0, 0.0],
+          [5.0, 2.0, 15.0],
+          [-5.0, 2.0, 15.0]
+        ]
+      },
+      {
+        "id": "patrol_guard_2",
+        "start_position": [-10.0, 2.0, -10.0],
+        "color": [1.0, 0.9, 0.6],
+        "ambient_intensity": 0.1,
+        "diffuse_intensity": 1.0,
+        "attenuation": [0.3, 0.2, 0.1],
+        "patrol_speed": 3.0,
+        "patrol_path": [
+          [-10.0, 2.0, -10.0],
+          [10.0, 2.0, -10.0]
+        ]
+      }
+    ],
+    "spot_lights": [
+      {
+        "position": [0.0, 10.0, 0.0],
+        "direction": [0.0, -1.0, 0.0],
+        "color": [1.0, 1.0, 1.0],
+        "ambient_intensity": 0.0,
+        "diffuse_intensity": 1.0,
+        "edge": 20.0
+      }
+    ]
+  },
+  "objects": [
+    {
+      "id": "floor",
+      "mesh_path": "Models/plane.obj",
+      "material_id": "mat_concrete",
+      "position": [0.0, 0.0, 0.0],
+      "rotation": [0.0, 0.0, 0.0],
+      "scale": [50.0, 1.0, 50.0]
+    },
+    {
+      "id": "hiding_crate_1",
+      "mesh_path": "Models/cube.obj",
+      "material_id": "mat_metal_crate",
+      "position": [2.0, 1.0, 5.0],
+      "rotation": [0.0, 45.0, 0.0],
+      "scale": [2.0, 2.0, 2.0]
+    }
+  ],
+  "skybox": {
+    "faces": [
+      "Textures/Skybox/cupertin-lake_rt.tga",
+      "Textures/Skybox/cupertin-lake_lf.tga",
+      "Textures/Skybox/cupertin-lake_up.tga",
+      "Textures/Skybox/cupertin-lake_dn.tga",
+      "Textures/Skybox/cupertin-lake_bk.tga",
+      "Textures/Skybox/cupertin-lake_ft.tga"
+    ]
+  },
+  "game_logic": {
+    "player_start": [0.0, 1.0, 0.0],
+    "exit_zone": {
+      "position": [0.0, 1.0, 40.0],
+      "radius": 3.0
+    }
+  }
+}

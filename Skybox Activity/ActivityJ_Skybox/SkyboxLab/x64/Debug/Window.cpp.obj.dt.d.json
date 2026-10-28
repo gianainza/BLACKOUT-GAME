@@ -1,0 +1,28 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\gianna\\final-repo\\skybox activity\\activityj_skybox\\skyboxlab\\window.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\gianna\\final-repo\\skybox activity\\activityj_skybox\\skyboxlab\\window.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.28000.0\\ucrt\\stdio.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.28000.0\\ucrt\\corecrt.h",
+            "e:\\computer graphics\\vs\\vc\\tools\\msvc\\14.29.30133\\include\\vcruntime.h",
+            "e:\\computer graphics\\vs\\vc\\tools\\msvc\\14.29.30133\\include\\sal.h",
+            "e:\\computer graphics\\vs\\vc\\tools\\msvc\\14.29.30133\\include\\concurrencysal.h",
+            "e:\\computer graphics\\vs\\vc\\tools\\msvc\\14.29.30133\\include\\vadefs.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.28000.0\\ucrt\\corecrt_wstdio.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.28000.0\\ucrt\\corecrt_stdio_config.h",
+            "e:\\computer graphics\\dependencies\\opengl libraries\\include\\gl\\glew.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.28000.0\\um\\gl\\glu.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.28000.0\\shared\\winapifamily.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.28000.0\\shared\\winpackagefamily.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.28000.0\\um\\gl\\gl.h",
+            "e:\\computer graphics\\dependencies\\opengl libraries\\include\\glfw\\glfw3.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.28000.0\\ucrt\\stddef.h",
+            "e:\\computer graphics\\vs\\vc\\tools\\msvc\\14.29.30133\\include\\stdint.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

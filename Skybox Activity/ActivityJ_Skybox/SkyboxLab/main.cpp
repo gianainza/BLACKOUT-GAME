@@ -23,6 +23,7 @@
 #include "PointLight.h"
 #include "SpotLight.h"
 #include "Material.h"
+#include "SceneLoader.h"
 
 #if USE_MODELS
 #include "Model.h"
@@ -324,20 +325,7 @@ int main()
 								0.1f, 0.9f,
 								-10.0f, -12.0f, 18.5f);
 
-	pointLights[0] = PointLight(1024, 1024,
-								0.01f, 100.0f,
-								0.0f, 0.0f, 1.0f,
-								0.0f, 1.0f,
-								1.0f, 2.0f, 0.0f,
-								0.3f, 0.2f, 0.1f);
-	pointLightCount++;
-	pointLights[1] = PointLight(1024, 1024,
-								0.01f, 100.0f,
-								0.0f, 1.0f, 0.0f,
-								0.0f, 1.0f,
-								-4.0f, 3.0f, 0.0f,
-								0.3f, 0.2f, 0.1f);
-	pointLightCount++;
+	SceneLoader::LoadLights("level01.json", pointLights, pointLightCount, MAX_POINT_LIGHTS);
 
 	spotLights[0] = SpotLight(1024, 1024,
 						0.01f, 100.0f,

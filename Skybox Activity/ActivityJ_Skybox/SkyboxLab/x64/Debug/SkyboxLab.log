@@ -1,0 +1,22 @@
+﻿  main.cpp
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(100,52): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(359,29): warning C4459: declaration of 'uniformProjection' hides global declaration
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(36,8): message : see declaration of 'uniformProjection'
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(359,47): warning C4459: declaration of 'uniformModel' hides global declaration
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(36,31): message : see declaration of 'uniformModel'
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(359,64): warning C4459: declaration of 'uniformView' hides global declaration
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(36,49): message : see declaration of 'uniformView'
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(359,88): warning C4459: declaration of 'uniformEyePosition' hides global declaration
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(36,66): message : see declaration of 'uniformEyePosition'
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(360,30): warning C4459: declaration of 'uniformSpecularIntensity' hides global declaration
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(37,1): message : see declaration of 'uniformSpecularIntensity'
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(360,52): warning C4459: declaration of 'uniformShininess' hides global declaration
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(37,31): message : see declaration of 'uniformShininess'
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(365,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(360,33): warning C4189: 'uniformShininess': local variable is initialized but not referenced
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(360,3): warning C4189: 'uniformSpecularIntensity': local variable is initialized but not referenced
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(359,9): warning C4189: 'uniformProjection': local variable is initialized but not referenced
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(359,50): warning C4189: 'uniformView': local variable is initialized but not referenced
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(359,32): warning C4189: 'uniformModel': local variable is initialized but not referenced
+C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\SkyboxLab\main.cpp(359,67): warning C4189: 'uniformEyePosition': local variable is initialized but not referenced
+  SkyboxLab.vcxproj -> C:\Users\Gianna\FINAL-REPO\Skybox Activity\ActivityJ_Skybox\x64\Debug\SkyboxLab.exe
