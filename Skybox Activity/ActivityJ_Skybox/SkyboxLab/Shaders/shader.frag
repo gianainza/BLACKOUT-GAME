@@ -1,4 +1,4 @@
-#version 330
+#version 460
 
 in vec4 vCol;
 in vec2 TexCoord;
@@ -66,6 +66,8 @@ uniform OmniShadowMap omniShadowMaps[MAX_POINT_LIGHTS + MAX_SPOT_LIGHTS];
 uniform Material material;
 
 uniform vec3 eyePosition;
+
+uniform int debugShadowMode;
 
 vec3 sampleOffsetDirections[20] = vec3[]
 (
@@ -222,6 +224,17 @@ vec4 CalcSpotLights()
 
 void main()
 {
+	// --- R2 DEBUG MODE ---
+	if (debugShadowMode == 1) {
+		// Calculate only the directional shadow (1.0 is shadow, 0.0 is lit)
+		float s = CalcDirectionalShadowFactor(directionalLight);
+		
+		// Output white for lit areas, black for shadows
+		colour = vec4(vec3(1.0 - s), 1.0); 
+		return; // Exit early, skip normal rendering
+	}
+	// ---------------------
+
 	vec4 finalColour = CalcDirectionalLight();
 	finalColour += CalcPointLights();
 	finalColour += CalcSpotLights();
