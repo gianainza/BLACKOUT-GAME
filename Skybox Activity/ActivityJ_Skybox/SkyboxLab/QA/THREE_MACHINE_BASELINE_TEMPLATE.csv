@@ -1,0 +1,10 @@
+machine_id,gpu,cpu,ram_gb,os,project_commit,build_configuration,scene,resolution,render_mode,run_id,average_ms,median_ms,p95_ms,vsync,notes
+A,,,,,,Release x64,level01,1366x768,VERIFY_UNLIT,1,,,,Off,
+A,,,,,,Release x64,level01,1366x768,VERIFY_UNLIT,2,,,,Off,
+A,,,,,,Release x64,level01,1366x768,VERIFY_UNLIT,3,,,,Off,
+B,,,,,,Release x64,level01,1366x768,VERIFY_UNLIT,1,,,,Off,
+B,,,,,,Release x64,level01,1366x768,VERIFY_UNLIT,2,,,,Off,
+B,,,,,,Release x64,level01,1366x768,VERIFY_UNLIT,3,,,,Off,
+C,,,,,,Release x64,level01,1366x768,VERIFY_UNLIT,1,,,,Off,
+C,,,,,,Release x64,level01,1366x768,VERIFY_UNLIT,2,,,,Off,
+C,,,,,,Release x64,level01,1366x768,VERIFY_UNLIT,3,,,,Off,
